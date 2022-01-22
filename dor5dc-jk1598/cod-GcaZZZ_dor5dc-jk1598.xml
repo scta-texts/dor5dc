@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 161</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 161</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk1598"><!--prin-pt4-c161 -->
+            <head xml:id="dor5dc-jk1598-Hd1e108">Caput 161</head>
+            <p xml:id="dor5dc-jk1598-d1e110">
+               <lb ed="#G" n="20"/>(12. Warumb der Magnet von seiner Krafft
+         <lb ed="#G" n="21"/>nicht abgehet, ob Er schon dieselbe dem
+         <lb ed="#G" n="22"/>Eisen mittheilet?)
+      </p>
+            <p xml:id="dor5dc-jk1598-d1e119">
+               <lb ed="#G" n="23"/>Auch diese andwort ist leicht, wenn man fraget: Warumb einen 
+         Magne<lb ed="#G" n="24" break="no"/>ten von seiner Krafft nichts abgehet, da er doch diselbe dem Eisen
+         <lb ed="#G" n="25"/>mittheilet? Denn in dem Magnet geschihet keine Enderung deswegen
+         <lb ed="#G" n="26"/>das die Particulae striatae von ihm aus, und mehr lieber in das Eisen
+         <lb ed="#G" n="27"/>als in einiges anderes Corpus gehen: Es were denn, das in deme
+         <lb ed="#G" n="28"/>sie freyer durch das eisen als andere Corpora tringen, auch desto 
+         heu<lb ed="#G" n="29" break="no"/>figer aus dem Magnet, wenn ihme das Eysen vereiniget ist, heraus
+         <lb ed="#G" n="30"/>sich begeben; das ist aber so weit gefehlet, das seine Krafft sollte dardurch
+         <lb ed="#G" n="31"/>vermintert und nicht vielmehr vermehret werden.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

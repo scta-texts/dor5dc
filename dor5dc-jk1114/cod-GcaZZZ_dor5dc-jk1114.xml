@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 154</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 154</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="195-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk1114"><!--prin-pt4-c154 -->
+            <head xml:id="dor5dc-jk1114-Hd1e108">Caput 154</head>
+            <p xml:id="dor5dc-jk1114-d1e110">
+               <lb ed="#G" n="13"/>(5. Warumb sie ie bisweilen von
+         <lb ed="#G" n="14"/>einander blieben?)
+      </p>
+            <p xml:id="dor5dc-jk1114-d1e117">
+               <lb ed="#G" n="3" type="fixed=191-r"/>
+               <figure xml:id="dor5dc-jk1114-Fzjcjjj">
+                  <graphic url="iiifurl/1587,1753,0,496/full/full/default.jpg"/>
+                  <ab type="figure-details">
+                     <seg type="figure-text">No. III. pag. 10 - 5 Z Y A O V B a G X No. III. pag. 10 - 5 Z Y A O V B a G X</seg>
+                     <seg type="figure-ideas"/>
+                     <seg type="transkribus-id">r4</seg>
+                  </ab>
+                  <figDesc/>
+               </figure>
+            </p>
+            <p xml:id="dor5dc-jk1114-d1e140">
+               <lb ed="#G" n="15" type="fixed=195-v"/>Die gleich-genanten Poli aber zweyer Magneten kommen nicht also 
+         zu<lb ed="#G" n="16" break="no"/>sammen, sondern im gegentheil, wenn sie einander zu nahe
+         <lb ed="#G" n="17"/>gehalten werden, flihen oder weichen sie voneinander. Denn
+         <lb ed="#G" n="18"/>die Particulae Striatae, die von des einen Magnets Polo, welchen
+         <lb ed="#G" n="19"/>der andere entgegen gekehret ist, kommen, in dem sie in
+         <lb ed="#G" n="20"/>denselbigen nicht können hinein gehen, erfordern sie 
+         zwi<lb ed="#G" n="21" break="no"/>schen den beeden Magneten einen Raum, durch welchen sie sich
+         <lb ed="#G" n="22"/>fort und zu dem andern Polo des Magnets, aus welchem sie
+         <lb ed="#G" n="23"/>kommen seint, widerumb wenden mögten. Nemlich die da
+         <lb ed="#G" n="24"/>heraus gehen von O durch den Polum A in dem sie nicht können
+         <lb ed="#G" n="25"/>hinein kommen in P durch desselben Polum a, so erforderen
+         <lb ed="#G" n="26"/>sie einen Raum zwischen A und a, dardurch sie kommen
+         <lb ed="#G" n="27"/>mögten gegen V und B und die gewalt, damit sie seint 
+         bewo<lb ed="#G" n="28" break="no"/>gen worden von B zu A die treiben den Magneten P also die
+         <lb ed="#G" n="29"/>aus dem Magneten P hervorkommen treiben den Magneten O: 
+         sonder<lb ed="#G" n="30" break="no"/>lich wenn Ihre Axis B A und a b in derselben geraden Linien seint.
+         <lb ed="#G" n="31"/>Aber wenn dieser Magneten Poli ein wenig mehr in einem als dem
+         <lb ed="#G" n="32"/>andern theil gebogen werden, so wenden sie sich die Magnets auf 
+         vor<lb ed="#G" n="33" break="no"/>explicirte Weise zueinander. Oder aber wenn diese Ihre 
+         umb<lb ed="#G" n="34" break="no"/>kehrung nicht aber ihre gerade bewegung (motus rectus) verhindert
+         <lb ed="#G" n="35"/>
+               <!-- erroneous line break -->
+               <lb ed="#G" n="36"/>wird, denn so treibet wiederumb ein Magnet O in ein kleines Känchen
+         <lb ed="#G" n="37"/>gesetzet wird, das er auf dem Wasser schwimmet, und seine axis
+         <lb ed="#G" n="38"/>allezeit perpendiculariter aufgerichtet bleibe, und der Magnet P, dessen
+         <lb ed="#G" n="39"/>SüdPol allezeit dem SüdPol des andern entgegen steht,
+         <lb ed="#G" n="40"/>mit der Hand gegen Y bewegt werde, wird dannenhero geschehen
+         <!--Chart-A-00707_00196r.xml-->
+         <pb ed="#G" n="196-r"/>
+               <lb ed="#G" n="1"/>das der Magnet O zurückweichet gegen Z, ehe er vom Magnet P berühret
+         <lb ed="#G" n="2"/>werde. Denn auf was vor eine Seite sich das Känchen wendet, so wird
+         <lb ed="#G" n="3"/>alle Zeit ein Raum erfordert zwischen den zweyen Magneten, damit
+         <lb ed="#G" n="4"/>die Particulae striatae aus Ihnen durch die Polos A und a kommende,
+         <lb ed="#G" n="5"/>gegen V und X durchgehen können.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

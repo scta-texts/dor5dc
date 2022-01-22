@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 162</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 162</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk1634"><!--prin-pt4-c162 -->
+            <head xml:id="dor5dc-jk1634-Hd1e108">Caput 162</head>
+            <p xml:id="dor5dc-jk1634-d1e110">
+               <lb ed="#G" n="32"/>(13. Warumb diese Krafft dem Eisen so 
+         ge<lb ed="#G" n="33" break="no"/>schwinde zwar mittgetheilet, aber mit der
+         <lb ed="#G" n="34"/>Länge der Zeit bestärket wird?)
+      </p>
+            <p xml:id="dor5dc-jk1634-d1e119">
+               <lb ed="#G" n="35"/>Und in gar kurtzer Zeit kömt diese Kraft zu dem Eisen, dieweil die
+         <lb ed="#G" n="36"/>Particulae striatae auf das geschwindeste durch dasselbe durchgehen;
+         <lb ed="#G" n="37"/>aber mit einem längeren verzug wird es mehr in demselben
+         <lb ed="#G" n="38"/>bestärket, denn ie lenger in einem theil die hervor gerakten Spitzen
+         <lb ed="#G" n="39"/>der ramentorum wieder gebogen bleiben, desto schwerer können sie
+         <lb ed="#G" n="40"/>auf den gegentheil reflectiret werden.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

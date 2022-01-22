@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 165</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 165</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk1744"><!--prin-pt4-c165 -->
+            <head xml:id="dor5dc-jk1744-Hd1e108">Caput 165</head>
+            <p xml:id="dor5dc-jk1744-d1e110">
+               <lb ed="#G" n="27"/>(16. Warumb auch die Erde selbst dem Eisen
+         <lb ed="#G" n="28"/>eine Magnetische Krafft zueignet?)
+      </p>
+            <p xml:id="dor5dc-jk1744-d1e117">
+               <lb ed="#G" n="29"/>Dannenhero geschihet, das auch das gringste Eisen, in welchem 
+         nem<lb ed="#G" n="30" break="no"/>lich dieselbe Endgen oder Spitzen der ramulorum leicht zu biegen
+         <lb ed="#G" n="31"/>sein, von der Erden selbsten, als dem größten aber sehr schwachen
+         <lb ed="#G" n="32"/>Magnet, etlicher maßen eine Magnetische Krafft in kurtzer Zeit
+         <lb ed="#G" n="33"/>erlangen könne. Nemlich wenn es etwas länglecht und noch ohne
+         <lb ed="#G" n="34"/>dergleichen Krafft mit seinem einen Ende gegen die Erden 
+         genei<lb ed="#G" n="35" break="no"/>get wird, aus diesem allein wird es von Stund an in dem gegen
+         <lb ed="#G" n="36"/>die Erde gesencktem ende die Krafft des Süd-pols an diesen 
+         Nor<lb ed="#G" n="37" break="no"/>dischen örtern empfhahen; und auch in einem augenblick wird
+         <lb ed="#G" n="38"/>es dieselbe verlieren und eine gantz-widrige annehmen, wan
+         <lb ed="#G" n="39"/>dasselbe Ende des Eysens in die Höhe gehoben, und das gegentheil
+         <lb ed="#G" n="40"/>gesenket wird.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

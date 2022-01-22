@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 168</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 168</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="198-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk1912"><!--prin-pt4-c168 -->
+            <head xml:id="dor5dc-jk1912-Hd1e108">Caput 168</head>
+            <p xml:id="dor5dc-jk1912-d1e110">
+               <lb ed="#G" n="6"/>(19. Warumb die Poli, darinnen Magnetische
+         <lb ed="#G" n="7"/>Kräffte, sich nicht allezeit gerade gegen
+         <lb ed="#G" n="8"/>die Polos der Erden wenden oder 
+         rich<lb ed="#G" n="9" break="no"/>ten, sondern underschidlich von
+         <lb ed="#G" n="10"/>ihnen abweichen?)
+      </p>
+            <p xml:id="dor5dc-jk1912-d1e123">
+               <lb ed="#G" n="11"/>Und dieweilen Ihre Spitzen leichtlicher von den anderen theilen 
+         zu<lb ed="#G" n="12" break="no"/>underscheiden seint, als die Poli des Magnets, so ist dardurch zu 
+         mer<lb ed="#G" n="13" break="no"/>ken, das die Poli, worinnen Magnetische Kräfte, nicht gerade gegen
+         <lb ed="#G" n="14"/>die Polos der Erden sich richten, sondern in underschiedlichen örtern
+         <lb ed="#G" n="15"/>underschiedlich von ihnen abweichen. Die uhrsachen aber dieser
+         <lb ed="#G" n="16"/>abweichung, wie der Gilbertus schon zuvor in acht genommen hat,
+         <lb ed="#G" n="17"/>seint den bloßen ungleichheiten, die da in dem eußeren theil der
+         <lb ed="#G" n="18"/>erden sich erweisen, zu zuschreiben. Denn es ist offenbar, das in
+         <lb ed="#G" n="19"/>einem theil der auswendigen Erden, vielmehr ramenta des
+         <lb ed="#G" n="20"/>Eisens, auch vielmehr Magneten, denn in anderen theilen 
+         zufin<lb ed="#G" n="21" break="no"/>den; dannenhero geschihet es, das die Particulae striatae, so von
+         <lb ed="#G" n="22"/>der inneren Erden herauswarts gehen, in viel größerer menge
+         <lb ed="#G" n="23"/>gegen solche als gegen andere örter sich begeben, und also zum
+         <lb ed="#G" n="24"/>öftern von ihrem wege sich abwenden. Und dieweil die richtung
+         <lb ed="#G" n="25"/>der Polorum des Magnets und die Spitzen der Nadeln von dem
+         <lb ed="#G" n="26"/>bloßen lauf dieser Particularum herrühret, so müssen auch
+         <lb ed="#G" n="27"/>alle ihre beugungen (inflexiones) darauf folgen, Diese
+         <lb ed="#G" n="28"/>sache ist nun zu versuchen in einem Magnet so keiner runden
+         <lb ed="#G" n="29"/>figur: Denn so eine kleine Nadel über dessen 
+         underschiedli<lb ed="#G" n="30" break="no"/>che theile gehalten wird, so wird sie sich nicht allezeit 
+         einer<lb ed="#G" n="31" break="no"/>ley weise gegen desselben Polos kehren, sondern wird
+         <lb ed="#G" n="32"/>zum öfftern etwas von ihnen abweichen, Man muß
+         <lb ed="#G" n="33"/>auch nicht meinen das in diesem ein underschied sey, das
+         <lb ed="#G" n="34"/>die ungleichheiten, die da in dem eußersten theil der erden
+         <lb ed="#G" n="35"/>zu finden, wenn sie gegen den gantzen begrifderselben
+         <lb ed="#G" n="36"/>gehalten werden, sehr gering seint, denn sie seint nicht
+         <lb ed="#G" n="37"/>mit diesem, sondern mit den Nadeln und Magneten
+         <!--Chart-A-00707_00199r.xml-->
+         <pb ed="#G" n="199-r"/>
+               <lb ed="#G" n="1"/>in welchen dsie abweichung geschihet, zu vergleichen, alwo man denn 
+         zuer<lb ed="#G" n="2" break="no"/>sehen, das sie groß genugsam sein.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

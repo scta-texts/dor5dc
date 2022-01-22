@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 153</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 153</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="195-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk962z"><!--prin-pt4-c153 -->
+            <head xml:id="dor5dc-jk962z-Hd1e108">Caput 153</head>
+            <p xml:id="dor5dc-jk962z-d1e110">
+         <!--Chart-A-00707_00195r.xml-->
+               <pb ed="#G" n="195-r"/>
+               <lb ed="#G" n="1"/>(4. Warumb sich zwenn Magnet zueinander begeben
+         <lb ed="#G" n="2"/>und was eines ieden Umbkreises Krafft sey?
+         <lb ed="#G" n="3"/>(quae sit cuiusqe sphaera activitatis.)
+      </p>
+            <p xml:id="dor5dc-jk962z-d1e123">
+               <lb ed="#G" n="2" type="fixed=191-r"/>
+               <figure xml:id="dor5dc-jk962z-Fzjs8hh">
+                  <graphic url="iiifurl/256,1683,0,698/full/full/default.jpg"/>
+                  <ab type="figure-details">
+                     <seg type="figure-text">No II. pag. 9. - 4. - 22 -30 R V X T X Y B O A S b P a No II. pag. 9. - 4. - 22 -30 R V X T X Y B O A S b P a</seg>
+                     <seg type="figure-ideas"/>
+                     <seg type="transkribus-id">r3</seg>
+                  </ab>
+                  <figDesc/>
+               </figure>
+            </p>
+            <p xml:id="dor5dc-jk962z-d1e146">
+               <lb ed="#G" n="4" type="fixed=195-r"/>Es kehren sich aber nicht allein zwene Magnete gegen einander bis der
+         <lb ed="#G" n="5"/>einen Nord-Pol gegen des anderen Süd-Pol gleich über zustehen kommet, sondern
+         <lb ed="#G" n="6"/>überdieses, wenn sie also gewendet oder gerichtet stehen, so begeben sie sich
+         <lb ed="#G" n="7"/>auch zueinander, das einer den anderen berühret, woferne nichts nicht
+         <lb ed="#G" n="8"/>ihre bewegung hindert, Denn alhier ist zumercken das die 
+         rundstrei<lb ed="#G" n="9" break="no"/>figten (striatae) Particulae, so lange sie in dem Magneten sein, auf das
+         <lb ed="#G" n="10"/>schnelleste sich bewegen, dieweil sie durch den nachtruck oder hefftigkeit des
+         <lb ed="#G" n="11"/>ersten Elements, zu welchen sie auch gehören, fortgetrieben werden, wenn
+         <lb ed="#G" n="12"/>sie aber von dannen heraus seint, so kommen sie den particulis anderer
+         <lb ed="#G" n="13"/>Cörper entgegen, und treiben dieselbe fort, dieweil die, so zumandern
+         <lb ed="#G" n="14"/>und dritten Element gehören, dergleichen geschwindigkeit nicht haben,
+         <lb ed="#G" n="15"/>also die jenigen so durch den Magneten gehen, erlangen durch ihre
+         <lb ed="#G" n="16"/>geschwindigkeit, darmit sie von A zu B und von B zu A getrieben
+         <lb ed="#G" n="17"/>werden, eine Krafft geraden linien nach ferner fortzugehen gegen
+         <lb ed="#G" n="18"/>R und S bis so lange sie daselbst vielen particulis des anderen
+         <lb ed="#G" n="19"/>und dritten Elements entgegen kommen und von denenselben 
+         wie<lb ed="#G" n="20" break="no"/>derum zurück gegen V getrieben werden. Da denn der gantze Raum
+         <lb ed="#G" n="21"/>oder Spatium R V S durch welches sie zerstreuet sein, der umb Kreis
+         <lb ed="#G" n="22"/>der Krafft, oder Sphaera virtutis seu activtatis des Magneten O 
+         genen<lb ed="#G" n="23" break="no"/>net wird: daraus denn erhellet, das ie größer ihr Magnet, ie größer
+         <lb ed="#G" n="24"/>solcher umbKreis oder Sphaera sein müsse, sonderlich ie länger er ist
+         <lb ed="#G" n="25"/>nach der linien A B, dieweilen die striatae particulae, ie länger
+         <lb ed="#G" n="26"/>sie durch ihn fort gehen, ie stärkere Bewegung (agitationem) sie erlangen.
+         <lb ed="#G" n="27"/>Also auch die da durch den Magneten P gehen, die gehen auch gerade
+         <lb ed="#G" n="28"/>aus gegen S und T, und denn kehren sie widerumb zurück gegen
+         <lb ed="#G" n="29"/>X und treiben also die gantze Lufft, so in dem umb Kreis ihrer
+         <lb ed="#G" n="30"/>Kraft oder in Sphaera suae activitatis enthalten ist, fort. Aber sie 
+         trei<lb ed="#G" n="31" break="no"/>ben sie deswegen nicht hinweg, so sie keinen ort hat dahin sie weichen
+         <lb ed="#G" n="32"/>könne: gleich wie sie keinen hat, in so lang die Sphaerae virtutis 
+         die<lb ed="#G" n="33" break="no"/>ser Magneten von einander getrennet seint. Aber wenn sie in
+         <lb ed="#G" n="34"/>einer sich zusammen vereiget, so ist es erstlich den particulis
+         <lb ed="#G" n="35"/>striatis gar leicht, welche da kommen von O gegen S gerade
+         <lb ed="#G" n="36"/>fortzugehen bis zu P, an deren stat die aus T durch X zu S und
+         <lb ed="#G" n="37"/>b zurück kehren sollten, als daß sie sich umbkehreten gegen V und
+         <lb ed="#G" n="38"/>R wohin ohne müh die aus X kommende gehen; und es ist
+         <lb ed="#G" n="39"/>denen so von P zu S kommen leichter fortzugehen nach O als
+         <!--Chart-A-00707_00195v.xml-->
+         <pb ed="#G" n="195-v"/>
+               <lb ed="#G" n="1"/>daß sie sich sollten reflectiren gegen X, wohin sonst gar leichtlich die
+         <lb ed="#G" n="2"/>von V kommen, also gehen dieses rundstreiffigte Particulae nicht 
+         an<lb ed="#G" n="3" break="no"/>ders durch die zwenn Magnete O P als ob es einer were, Ferner so
+         <lb ed="#G" n="4"/>ist es diesen Particulis striatis viel leichter, welche gerade von O zu
+         <lb ed="#G" n="5"/>P und von P zu O gehen, die inzwischen liegende Lufft von S gegen
+         <lb ed="#G" n="6"/>R und T an die örter oder Plätze der Magnaten O und P auszutreiben,
+         <lb ed="#G" n="7"/>dardurch es denn geschihet und gemacht wird, das die beeden Magneten
+         <lb ed="#G" n="8"/>sich zu einander begeben, bis sie einander anrühren in S. als daß
+         <lb ed="#G" n="9"/>sie solches durch die gantze Lufft von A zu b und von V zu X mit
+         <lb ed="#G" n="10"/>schwierigkeit thun sollten, welche zwene wege auch viel kürtzer
+         <lb ed="#G" n="11"/>seind, das sich diese zwene Magneten zusammen begeben, als
+         <lb ed="#G" n="12"/>wenn der eine gehalten und nur der andere zu ihme kömmet.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 170</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 170</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk2032"><!--prin-pt4-c170 -->
+            <head xml:id="dor5dc-jk2032-Hd1e108">Caput 170</head>
+            <p xml:id="dor5dc-jk2032-d1e110">
+               <lb ed="#G" n="13"/>(21. Warumb dieselbe abweichung in einem Magnet,
+         <lb ed="#G" n="14"/>der auf einem von seinen Polis aufgerichtet stehet,
+         <lb ed="#G" n="15"/>schwächer oder weniger sey, als wen seine Poli
+         <lb ed="#G" n="16"/>gleich von der Erden stehen?)
+      </p>
+            <p xml:id="dor5dc-jk2032-d1e121">
+               <lb ed="#G" n="17"/>Es seint auch etliche die da vorgeben, daß dergleichen abweichung nicht
+         <lb ed="#G" n="18"/>sey in einem runden Magnet, wenn er in denn(!) Nordischen Regionen
+         <lb ed="#G" n="19"/>auf dem Süd-Pol, und in den Südischen örtern auf den Nord-Pol
+         <lb ed="#G" n="20"/>perpendiculariter aufgerichtet wird, und das wenn man ihn solcher
+         <lb ed="#G" n="21"/>gestalt in ein Känchen setzet, einen theil seines Aequatoris allezeit
+         <lb ed="#G" n="22"/>gerade gegen denselben Norden, und den gleichüberstehenden gegen
+         <lb ed="#G" n="23"/>Süden wenden solle. Welches aber war sey habe ich bis itzo noch nicht
+         <lb ed="#G" n="24"/>versuchet, aber ich kann es mir doch leicht einbilden, das nicht eben
+         <lb ed="#G" n="25"/>dergleichen, oder vielleicht auch so große abweichung in einem so 
+         gestel<lb ed="#G" n="26" break="no"/>ten Magneten sey, als in dem dessen Poli gleich von der Erde 
+         ab<lb ed="#G" n="27" break="no"/>stehen. Denn die Particulae Striatae in diesem oberen theil der
+         <lb ed="#G" n="28"/>Erden, kehren nicht allein durch Linien, so da gleich von derselben
+         <lb ed="#G" n="29"/>Centro abstehen, von einem Polo zu dem andern wiederum zurück,
+         <lb ed="#G" n="30"/>sondern es steigen auch allenthalben (ausgenommen unter dem
+         <lb ed="#G" n="31"/>Aequatore) von dem innersten theil der Erden etliche in die Höhe:
+         <lb ed="#G" n="32"/>Von welchen letzteren denn vornemlich des Magneten, welcher auf
+         <lb ed="#G" n="33"/>den Polis aufgerichtet, Umbtrehung (conversio) von denen
+         <lb ed="#G" n="34"/>ersten aber seine abweichung herrühret.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

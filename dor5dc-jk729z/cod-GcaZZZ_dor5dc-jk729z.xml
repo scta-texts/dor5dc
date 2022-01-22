@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 149</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 149</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk729z"><!--prin-pt4-c149 -->
+            <head xml:id="dor5dc-jk729z-Hd1e108">Caput 149</head>
+            <!-- this is where german translation chapter 3 begins -->
+            <p xml:id="dor5dc-jk729z-d1e112">
+               <lb ed="#G" n="3"/>Cap. III
+      </p>
+            <p xml:id="dor5dc-jk729z-d1e117">
+               <lb ed="#G" n="4"/>(1. Welches die Poli des Magnets seind, und warumb sie sich
+         <lb ed="#G" n="5"/>gegen die Erde kehren?)
+      </p>
+            <p xml:id="dor5dc-jk729z-d1e124">
+               <lb ed="#G" n="6"/>Gleichwie wir in der Erden, also werden wir auch in dem Magnet den
+         <lb ed="#G" n="7"/>mittelPunct deßelben theils, in welchen die eingänge (orificia) der
+         <lb ed="#G" n="8"/>durchgänge (Meatum) durch welche die rund-streiffichten Particulae 
+         hie<lb ed="#G" n="9" break="no"/>neingehen, so da von dem Südertheil des Himmels kommen, den SüdPol
+         <lb ed="#G" n="10"/>oder Australem Polum nennen, den mittelPunct aber des anderen theils
+         <lb ed="#G" n="11"/>durch welchen diese rundstreifichte particulae ausgehen und andere
+         <lb ed="#G" n="12"/>so von Mitternacht kommen, hineingehen, den NordPol oder 
+         Borae<lb ed="#G" n="13" break="no"/>lem Polum. Und wollen Uns deswegen nicht aufhalten, das andere
+         <lb ed="#G" n="14"/>ins gemein den Polum, so wie Australem oder SüdPol, sie hingegen
+         <lb ed="#G" n="15"/>Borealem oder NordPol nennen, denn von so einer Sache kann der 
+         gemei<lb ed="#G" n="16" break="no"/>ne mann nicht reden, als welchen allein das recht gehöret, die mit den
+         <lb ed="#G" n="17"/>Sachen selbst übel-überein kommende namen durch steten gebrauch 
+         an<lb ed="#G" n="18" break="no"/>zu nehmen und zu approbiren. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

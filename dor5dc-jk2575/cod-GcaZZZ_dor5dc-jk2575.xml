@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 178</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 178</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="201-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk2575"><!--prin-pt4-c178 -->
+            <head xml:id="dor5dc-jk2575-Hd1e108">Caput 178</head>
+            <p xml:id="dor5dc-jk2575-d1e110">
+               <lb ed="#G" n="33"/>(29. Warumb in diesen Nordländern Der SüdPol
+         <lb ed="#G" n="34"/>des Magnets viel stärker sey als dessen
+         <lb ed="#G" n="35"/>NordPol?)
+      </p>
+            <p xml:id="dor5dc-jk2575-d1e119">
+               <lb ed="#G" n="8" type="fixed=191-r"/>
+               <figure xml:id="dor5dc-jk2575-Fnb12we">
+                  <graphic url="iiifurl/744,3229,0,357/full/full/default.jpg"/>
+                  <ab type="figure-details">
+                     <seg type="figure-text">No. VIII. pag. 20. - 26 27 - 21. - 29. a C b D E a F b No. VIII. pag. 20. - 26 27 - 21. - 29. a C b D E a F b</seg>
+                     <seg type="figure-ideas"/>
+                     <seg type="transkribus-id">r9</seg>
+                  </ab>
+                  <figDesc/>
+               </figure>
+            </p>
+            <p xml:id="dor5dc-jk2575-d1e142">
+               <lb ed="#G" n="36" type="fixed=201-r"/>Deswegen aber weil der Magnet F dem Magneten C hilffet,
+         <lb ed="#G" n="37"/>das Eisen D E zuenthalten, so ist es klar, warumb der von uns
+         <lb ed="#G" n="38"/>so genante SüdPol viel mehr Eisen an sich enthalte als der andere
+         <!--Chart-A-00707_00201v.xml-->
+         <pb ed="#G" n="201-v"/>
+               <lb ed="#G" n="1"/>in diesen Nordörtern: Den es wird Ihme von der Erden als dem größten
+         <lb ed="#G" n="2"/>Magnet geholffen, auf eben die art wie dem Magneten C vom 
+         Ma<lb ed="#G" n="3" break="no"/>gneten F; hingegen wird sein anderer Polus, in dem er mit der 
+         Er<lb ed="#G" n="4" break="no"/>den nicht überein kommet, von derselben verhindert.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

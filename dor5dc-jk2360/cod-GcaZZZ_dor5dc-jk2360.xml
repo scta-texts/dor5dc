@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 175</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 175</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk2360"><!--prin-pt4-c175 -->
+            <head xml:id="dor5dc-jk2360-Hd1e108">Caput 175</head>
+            <p xml:id="dor5dc-jk2360-d1e110">
+               <lb ed="#G" n="10"/>(26. Wie und warum die Krafft eines Magnets, des
+         <lb ed="#G" n="11"/>anderen Krafft vermehre und vermindere?)
+      </p>
+            <p xml:id="dor5dc-jk2360-d1e117">
+               <lb ed="#G" n="8" type="fixed=191-r"/>
+               <figure xml:id="dor5dc-jk2360-Frut7yu">
+                  <graphic url="iiifurl/744,3229,0,357/full/full/default.jpg"/>
+                  <ab type="figure-details">
+                     <seg type="figure-text">No. VIII. pag. 20. - 26 27 - 21. - 29. a C b D E a F b No. VIII. pag. 20. - 26 27 - 21. - 29. a C b D E a F b</seg>
+                     <seg type="figure-ideas"/>
+                     <seg type="transkribus-id">r9</seg>
+                  </ab>
+                  <figDesc/>
+               </figure>
+            </p>
+            <p xml:id="dor5dc-jk2360-d1e140">
+               <lb ed="#G" n="12" type="fixed=200-v"/>Die Krafft eines Magnets wird durch die beykommung eines anderen
+         <lb ed="#G" n="13"/>Magnets underschiedlich vermehret und vermintert. Es ist
+         <lb ed="#G" n="14"/>aber hierinnen eine allgemeine Regel, das so offt die Magneten
+         <lb ed="#G" n="15"/>also gestellet sein, das einer in den anderen seine Particulas 
+         Stri<lb ed="#G" n="16" break="no"/>atas senden könne, Sie so denn einander helffen; im gegentheil
+         <lb ed="#G" n="17"/>aber, wenn einer dem anderen dieselbe abführet, Sie alsdenn 
+         ein<lb ed="#G" n="18" break="no"/>ander hinderen, Alldieweilen ie geschwinder und heuffiger
+         <lb ed="#G" n="19"/>diese Particulae durch einen ieden Magnet gehen, ie stärker
+         <lb ed="#G" n="20"/>ist in demselben die Kraft, und ie mehrere denselben und ie öfter
+         <lb ed="#G" n="21"/>sie beweget werden, können sie so denn von einem Magnet oder
+         <lb ed="#G" n="22"/>Eisen in das andere kommen, als in mangelung dessen von der
+         <lb ed="#G" n="23"/>Lufft, oder an dessen stat von einigen anderen hirzu gesetzten
+         <lb ed="#G" n="24"/>Cörper. Also auf diese art, wenn der SüdPol eines Magneten
+         <lb ed="#G" n="25"/>mit dem NordPol des anderen vereiniget ist, helffen sie nicht
+         <lb ed="#G" n="26"/>allein einander das Eisen, so an ihren anderen Polis hänget, 
+         er<lb ed="#G" n="27" break="no"/>halten, sondern auch wenn sie von einander seint, und das
+         <lb ed="#G" n="28"/>eisen zwischen sie geleget wird. Als zum Exempel dem Magnet
+         <lb ed="#G" n="29"/>C wird geholffen von dem Magneten F, das Eisen D E, so 
+         ie<lb ed="#G" n="30" break="no"/>nem vereiniget, zu enthalten; und so gleichergestalt wird dem
+         <lb ed="#G" n="31"/>Magneten F von dem Magneten C geholffen die Spitze des Eisens
+         <lb ed="#G" n="32"/>E in der Lufft zuenthalten: Denn es könnte wohl so schwer sein
+         <lb ed="#G" n="33"/>das es von ihm allein nicht mögte gehalten werden, wenn dessen
+         <lb ed="#G" n="34"/>andere Spitze D auf einen anderen Cörper als den Magneten
+         <lb ed="#G" n="35"/>C bestünde.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

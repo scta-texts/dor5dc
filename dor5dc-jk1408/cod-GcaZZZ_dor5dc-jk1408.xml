@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 158</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 158</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk1408"><!--prin-pt4-c158 -->
+            <head xml:id="dor5dc-jk1408-Hd1e108">Caput 158</head>
+            <p xml:id="dor5dc-jk1408-d1e110">
+               <lb ed="#G" n="10"/>(9. Warumb ein Magnet dem Eisen, das ihn
+         <lb ed="#G" n="11"/>berühret, seine Krafft mittheilet?)
+      </p>
+            <p xml:id="dor5dc-jk1408-d1e117">
+               <lb ed="#G" n="12"/>So ist es auch kein Wunder, das das Eisen, so den Magnet berühret,
+         <lb ed="#G" n="13"/>von ihme eine Magnetische Krafft erlange, denn es hat schon
+         <lb ed="#G" n="14"/>bequeme gänge die Particulas striatas anzunehmen, und es 
+         man<lb ed="#G" n="15" break="no"/>gelt ihme nichts mehr diese Krafft zuerlangen, als das noch in
+         <lb ed="#G" n="16"/>denselben durchgängen hier und dar kleine bißergen von denen ramentis, 
+         da<lb ed="#G" n="17" break="no"/>raus sie bestehen, hervor gehen; Welche alle gegen den einen oder
+         <lb ed="#G" n="18"/>den selbigen Theil müssen gebogen oder gekrümmet werden in
+         <lb ed="#G" n="19"/>denen durchgängen, durch welchen die von Süden kommende
+         <lb ed="#G" n="20"/>particulae striatae durch gehen können, und in anderen vom
+         <lb ed="#G" n="21"/>gegentheil. Wenn nun der Magnet darzu gehalten wird, so fallen
+         <lb ed="#G" n="22"/>die Particulae striatae, mit großer gewalt und großer menge
+         <lb ed="#G" n="23"/>gleich einer gehling- abschießenden Wasserfluth in die durchgä
+         n<lb ed="#G" n="24" break="no"/>ge des Eisens, und biegen oder legen dardurch die in gedachten
+         <lb ed="#G" n="25"/>durchgängen hervor rakende Spitzergen darnieder, und geben
+         <lb ed="#G" n="26"/>ihm also ferner alle das, was in Ihm zur Magnetischen Krafft
+         <lb ed="#G" n="27"/>mogte begehret werden.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

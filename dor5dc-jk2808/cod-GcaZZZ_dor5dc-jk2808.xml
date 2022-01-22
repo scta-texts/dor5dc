@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 180</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 180</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="202-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk2808"><!--prin-pt4-c180 -->
+            <head xml:id="dor5dc-jk2808-Hd1e108">Caput 180</head>
+            <p xml:id="dor5dc-jk2808-d1e110">
+               <lb ed="#G" n="28"/>(31. Warumb ein Eisenblech, wen es dem Polo eines
+         <lb ed="#G" n="29"/>Magneten vereiniget ist, die Krafft desselben im
+         <lb ed="#G" n="30"/>Zihen und das Eisen umb zu kehren hindere?)¬
+      </p>
+            <p xml:id="dor5dc-jk2808-d1e119">
+               <lb ed="#G" n="9" type="fixed=191-r"/>
+               <figure  xml:id="dor5dc-jk2808-Fy78uuu">
+                  <graphic url="iiifurl/1653,3222,0,430/full/full/default.jpg"/>
+                  <ab type="figure-details">
+                     <seg type="figure-text">No. IX. pag. 23. - 31. - 24. - 32. A B D C D E F No. IX. pag. 23. - 31. - 24. - 32. A B D C D E F</seg>
+                     <seg type="figure-ideas"/>
+                     <seg type="transkribus-id">r10</seg>
+                  </ab>
+                  <figDesc/>
+               </figure>
+            </p>
+            <p xml:id="dor5dc-jk2808-d1e142">
+               <lb ed="#G" n="31" type="fixed=202-r"/>Die Eiserne Bleche, wenn sie dem Polo des Magnets zugefüget werden,
+         <lb ed="#G" n="32"/>können seine Krafft, das Eisen zuenthalten viel vermehren, wie 
+         zu<lb ed="#G" n="33" break="no"/>vor gesaget, verhindert auch desselben Krafft das eisen an sich zu 
+         zi<lb ed="#G" n="34" break="no"/>hen und zu kehren, nemlich das Eiserne blech D. C. D. 
+         verhin<lb ed="#G" n="35" break="no"/>dert, das der Magnet A B, dessen Polo es vereiniget ist, die Nadel E
+         <lb ed="#G" n="36"/>F nicht zu sich zihen kann oder dieselbe umbzukehren, Denn itzo
+         <lb ed="#G" n="37"/>merken wir, daß die Particulae Striatae, welche sollten 
+         fortge<lb ed="#G" n="38" break="no"/>hen von B gegen E F, wenn es ohne dieses Blech were, die kehren in
+         <lb ed="#G" n="39"/>demselben aus C gegen die Erde D D, deswegen, weil sie dardurch
+         <lb ed="#G" n="40"/>freyer, als durch die Lufft kommen, also kommen kaum etliche zu
+         <lb ed="#G" n="41"/>der Nadel E F. Eben auf solche art, wie wir oben gesagt, kommen
+         <lb ed="#G" n="42"/>wenig von der Mittesten region der Erden zu uns, dieweil der¬
+         <!--Chart-A-00707_00202v.xml-->
+         <pb ed="#G" n="202-v"/>
+               <lb ed="#G" n="1"/>selben durch die innerste haut der Oberen region der Erden von einem 
+         Po<lb ed="#G" n="2" break="no"/>lo zu dem anderen widerumb zurück kehren, weswegen es denn 
+         geschi<lb ed="#G" n="3" break="no"/>het, das bey uns die Magnetische Krafft der gantzen Erden sehr schwach
+         <lb ed="#G" n="4"/>verspüret wird.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

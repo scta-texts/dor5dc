@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 166</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 166</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="198-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk1785"><!--prin-pt4-c166 -->
+            <head xml:id="dor5dc-jk1785-Hd1e108">Caput 166</head>
+            <p xml:id="dor5dc-jk1785-d1e110"> 
+         <!--Chart-A-00707_00198r.xml-->
+               <pb ed="#G" n="198-r"/>
+               <lb ed="#G" n="1"/>(17. Warumb die Krafft der Magnetische in der
+         <lb ed="#G" n="2"/>Erden schwächer sey, als in anderen 
+         kleine<lb ed="#G" n="3" break="no"/>ren Magneten?)
+      </p>
+            <p xml:id="dor5dc-jk1785-d1e123">
+               <lb ed="#G" n="4"/>So aber gefraget wird, warumb diselbe Kraft in der Erden als in dem
+         <lb ed="#G" n="5"/>größeren Magnet schwächer sey, denn in anderen kleineren: So andworte
+         <lb ed="#G" n="6"/>ich, das ich nicht darvor halte das sie schwächer sey, sondern vielmehr viel
+         <lb ed="#G" n="7"/>stärker, in der mitten nemlich der Erden. welche, wie wir oben gesaget,
+         <lb ed="#G" n="8"/>gantz durchgängig ist von den Particulis striatis; aber diese particulae
+         <lb ed="#G" n="9"/>striatae, so von der mitten heraus kommen, gehen meisten theils durch 
+         diesel<lb ed="#G" n="10" break="no"/>be innerste rinden oder schalen des obersten theils der Erden, in welcher die
+         <lb ed="#G" n="11"/>metalla entspringen, wiederumb zurück, woselbsten sie auch viel
+         <lb ed="#G" n="12"/>durchgänge, sie anzunehmen, finden, und das derohalben also die 
+         wenig<lb ed="#G" n="13" break="no"/>sten bis zu uns kommen. Denn ich achte, das die jenigen durchgänge,
+         <lb ed="#G" n="14"/>so wohl in derselben innersten rinden (crusta) als auch in den Magneten
+         <lb ed="#G" n="15"/>und ramentis des Eisens, welche in den andern der eußersten Region 
+         ent<lb ed="#G" n="16" break="no"/>halten werden, gantz auf eine andere art gekehret sein, als die 
+         durch<lb ed="#G" n="17" break="no"/>gänge in der mittelsten Region: Also das die particulae striatae, die durch
+         <lb ed="#G" n="18"/>die mittelste Region von Süden gegen Norden gehen, zwar durch alle theil
+         <lb ed="#G" n="19"/>der oberen Region, vornemlich aber durch derselben innere rinden (crusta)
+         <lb ed="#G" n="20"/>ingleichen durch den Magnet und Eisen der auswendigen Region
+         <lb ed="#G" n="21"/>von Norden nach Süden sich wiederumb zurück [kehren]. Weil sich nun der
+         <lb ed="#G" n="22"/>meiste theil dagin wendet, so bleiben wenig übrig, die durch unsere Lufft
+         <lb ed="#G" n="23"/>und andere umbliegende Cörper, so da bequehmer durchgänge 
+         er<lb ed="#G" n="24" break="no"/>mangeln, ihren weg nehmen. So ich nun dieses recht denke, so wird ein
+         <lb ed="#G" n="25"/>Magnet, der frisch aus der Erden gehauen, und in einen Känchgen auf
+         <lb ed="#G" n="26"/>einem Wasser frey gesetzt wird, eben dieselbe gestalt oder seite, die
+         <lb ed="#G" n="27"/>er allezeit zuvor, als er in der Erden gewesen, gegen Niedergang 
+         ge<lb ed="#G" n="28" break="no"/>habt, auch itzo noch gegen Niedergang wenden: Gleich wie der 
+         Gil<lb ed="#G" n="29" break="no"/>bertus, so der Magnetischen Krafft vornehmster erforscher, und 
+         der<lb ed="#G" n="30" break="no"/>selben, die auf Erden ist, erster Erfinder, dergleichen erfahren 
+         zu<lb ed="#G" n="31" break="no"/>haben, versichert. Und hindert mich nicht, das andere das 
+         ge<lb ed="#G" n="32" break="no"/>gentheil gesehen zu haben vermeinen; denn vielleicht kann sie 
+         ver<lb ed="#G" n="33" break="no"/>führet haben, das das theil der Erden, aus welcher der Magnet gehauen worden,
+         <lb ed="#G" n="34"/>ein Magnet gewesen, dannenhero sich die Poli des ausgehauenen Magnets
+         <lb ed="#G" n="35"/>nach derselben erden gewendet; wie kurtz zu vor gesaget ist, das ein
+         <lb ed="#G" n="36"/>stücklein des Magnets gegen den anderen sich verwende.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

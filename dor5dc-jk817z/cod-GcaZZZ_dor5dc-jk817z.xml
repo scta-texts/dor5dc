@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 151</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 151</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="194-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk817z"><!--prin-pt4-c151 -->
+            <head xml:id="dor5dc-jk817z-Hd1e108">Caput 151</head>
+            <p xml:id="dor5dc-jk817z-d1e110">
+               <lb ed="#G" n="33"/>(2. Warumb sich auch die zwen Poli des Magnets auf eine
+         <lb ed="#G" n="34"/>gewiße art gegen den mittelpunct der
+         <lb ed="#G" n="35"/>erden neigen?)
+      </p>
+            <p xml:id="dor5dc-jk817z-d1e119">
+               <lb ed="#G" n="36"/>Daher sie denn auch machen, das der Magnet, nach underschiedlichen örtern
+         <lb ed="#G" n="37"/>der erden, auf welchen er stehet, einen von seinen Polis gegen den
+         <lb ed="#G" n="38"/>andern höher oder niedriger gegen das mittel der Erden sencket.
+         <lb ed="#G" n="39"/>Nemlich und zwar in dem Aequatore ist a der SüdPol des
+         <lb ed="#G" n="40"/>Magneten L gegen B den NordPol der Erden, und b der 
+         Nord<lb ed="#G" n="41" break="no"/>Pol deßelben Magneten gegen den SüdPol der Erden A gerichtet,
+         <lb ed="#G" n="1" type="fixed=191-r"/>
+               <figure xml:id="dor5dc-jk817z-Fzncnsa">
+                  <graphic url="iiifurl/93,85,0,1501/full/full/default.jpg"/>
+                  <ab type="figure-details">
+                     <seg type="figure-text">No I gehört ad pag. 5. § 19 und ad pag. 7 - 2. E a I b A a K b G h L C a b M a F b N a B D No I gehört ad pag. 5. § 19 und ad pag. 7 - 2. E a I b A a K b G h L C a b M a F b N a B D</seg>
+                     <seg type="figure-ideas"/>
+                     <seg type="transkribus-id">r2</seg>
+                  </ab>
+                  <figDesc/>
+               </figure>
+               <!--Chart-A-00707_00194v.xml-->
+               <pb ed="#G" n="194-v"/>
+               <lb ed="#G" n="1"/>und keiner von disen beeden polis ist mehr als der andere geneigt oder abhengend,
+         <lb ed="#G" n="2"/>die weilen die rundstreiffigten particulae mit gleicher gewalt auf 
+         bee<lb ed="#G" n="3" break="no"/>den theilen zu ihm kommen. Aber bey dem Nord-Pol der Erden wird
+         <lb ed="#G" n="4"/>der SüdPol a des Magneten N gentzlichen niedergetrücket und der Nord-
+         <lb ed="#G" n="5"/>Pol b perpendiculariter aufgerichtet. In den Mittelörtern aber, richtet
+         <lb ed="#G" n="6"/>der Magnet M seinen Nord-Pol b mehr und weniger auf, hingegen aber
+         <lb ed="#G" n="7"/>trücket er seinen SüdPol a mehr und weniger unter nach dem er mehr
+         <lb ed="#G" n="8"/>und weniger dem Nord-Pol der Erden, B nahet. Deren uhrsache ist
+         <lb ed="#G" n="9"/>nun, das die Süd-Polische particulae striatae, so da in den Magneten N
+         <lb ed="#G" n="10"/>hinein gehen wollen, von den innersten theilen der erden durch denselben
+         <lb ed="#G" n="11"/>NordPol B nach geraden Linien hervorkommen, die Nordischen parti-
+         <lb ed="#G" n="12"/>culae aber, so von dem halben umbZirk der Erden D A C allenthalben durch
+         <lb ed="#G" n="13"/>die Lufft zu dem Magnet N kommen, dörffen nicht mehr schwacher
+         <lb ed="#G" n="14"/>(oblique) fortgehen, daß sie nicht zu dessen öbern als auch unteren
+         <lb ed="#G" n="15"/>theil kommen könten: die Südische Particulae aber, so in den Magneten
+         <lb ed="#G" n="16"/>M einschleichen wollen, und von dem gantzen Strich, der da ist zwischen
+         <lb ed="#G" n="17"/>B und M, aufsteigen, haben die gewalt seinen Polum a schwach zu neigen,
+         <lb ed="#G" n="18"/>und können von den Nordischen, welche von dem Strich der Erden A C
+         <lb ed="#G" n="19"/>zu seinem andern Polo, b so leicht wenn er aufgerichtet als wieder
+         <lb ed="#G" n="20"/>gebeuget ist, kommen, nicht gehindert werden.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 152</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 152</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk915z"><!--prin-pt4-c152 -->
+            <head xml:id="dor5dc-jk915z-Hd1e108">Caput 152</head>
+            <p xml:id="dor5dc-jk915z-d1e110">
+               <lb ed="#G" n="21"/>(3. Warumb ein Magnet zu dem anderen sich
+         <lb ed="#G" n="22"/>kehret und neige gleich als zu der Erden?)
+      </p>
+            <p xml:id="dor5dc-jk915z-d1e117">
+               <lb ed="#G" n="23"/>Indem aber nun diese particulae striate, oder rundstreifichte particulen
+         <lb ed="#G" n="24"/>durch ieden Magnet auf gleiche Weise, als wie durch die Erde geehen,
+         <lb ed="#G" n="25"/>so müßen nothwendig zwene runde Magnet einen zu dem andern
+         <lb ed="#G" n="26"/>nicht anders, als wie zu der gantzen runden sich kehren. und ist
+         <lb ed="#G" n="27"/>hierbey zumercken, das diese particulae umb einen und anderen Magnet
+         <lb ed="#G" n="28"/>in viel größer menge sich enthalten, denn in der entfernten Luft,
+         <lb ed="#G" n="29"/>d(w)ieweil sie nemlich in dem Magnet durchgänge haben, durch welche
+         <lb ed="#G" n="30"/>sie sich viel leichter begeben, als durch die umgebende Lufft, daß
+         <lb ed="#G" n="31"/>von welcher sie auch deßwegen umb den Magnet erhalten werden, gleich
+         <lb ed="#G" n="32"/>wie auch, wegen der durchgänge, die sie in der innersten Erden haben,
+         <lb ed="#G" n="33"/>Viel eine größere menge in der gantzen Lufft und anderen die
+         <lb ed="#G" n="34"/>Erde umgebenden Cörpern als in dem Himmel enthalten werden,
+         <lb ed="#G" n="35"/>Und also, was die Magnetische Kraft betrifft, verhelt es sich in
+         <lb ed="#G" n="36"/>allen sachen von einen Magneten gegen den anderen, als wie
+         <lb ed="#G" n="37"/>gegen der Erden, welche nichts anders, als ein großer Magnet ist.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

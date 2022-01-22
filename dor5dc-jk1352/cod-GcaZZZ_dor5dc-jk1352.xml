@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 157</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 157</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="196-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk1352"><!--prin-pt4-c157 -->
+            <head xml:id="dor5dc-jk1352-Hd1e108">Caput 157</head>
+            <p xml:id="dor5dc-jk1352-d1e110">
+               <lb ed="#G" n="34"/>(8. Warumb in einem ieden Theil des Magneten
+         <lb ed="#G" n="35"/>Die Krafft oder Würkung sey, als wie sie
+         <lb ed="#G" n="36"/>ist in dem Gantzen Magnet?)
+      </p>
+            <p xml:id="dor5dc-jk1352-d1e119">
+               <lb ed="#G" n="37"/>Es ist auch nicht weniger bekand, das eben die Krafft und Würkung
+         <lb ed="#G" n="38"/>in einem anderen theil des Magneten, als wie in dem gantzen
+         <lb ed="#G" n="39"/>zuverspühren sey: Denn es ist keine andere Krafft in den Polis
+         <lb ed="#G" n="40"/>als in den anderen Stükken, sondern sie scheinet nur deswegen
+         <lb ed="#G" n="41"/>größer zu sein, [d/wie] vielen durch dieselbe die Particulae 
+         stri<lb ed="#G" n="42" break="no"/>atae heraus kommen, welche durch die lengste durchgänge des
+         <lb ed="#G" n="43"/>Magnets gegangen, und seint die mittelsten unter allen denen so von
+         <!--Chart-A-00707_00196v.xml-->
+         <pb ed="#G" n="196-v"/>
+               <lb ed="#G" n="1"/>demselben theil herkommen. Sonderlich in einem runden Magnet, nach
+         <lb ed="#G" n="2"/>dessen Exempel man auch in den andern, an den jenigen örtern wo
+         <lb ed="#G" n="3"/>die größte Krafft des Magnetes ist, ihr Polos zu sein schätzet. So ist auch
+         <lb ed="#G" n="4"/>keine andere Krafft in einem als in den dem anderen Polo, 
+         ausge<lb ed="#G" n="5" break="no"/>nommen in so ferne als die Particulae striatae zu dem einen hienein
+         <lb ed="#G" n="6"/>und zu dem andern wiederumb heraus gehen, also das auch
+         <lb ed="#G" n="7"/>nicht das kleineste Stüklein oder bißlein eines Magneten zu finden,
+         <lb ed="#G" n="8"/>in welchem sie, woferne der eingang vorhanden, nicht auch einen 
+         aus<lb ed="#G" n="9" break="no"/>gang haben sollten.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 160</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 160</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk1542"><!--prin-pt4-c160 -->
+            <head xml:id="dor5dc-jk1542-Hd1e108">Caput 160</head>
+            <p xml:id="dor5dc-jk1542-d1e110">
+               <lb ed="#G" n="10"/>(11. Warumb ein länglecht Eisen die Krafft des Magnets
+         <lb ed="#G" n="11"/>nicht anders, als nach seiner länge empfahe?)
+      </p>
+            <p xml:id="dor5dc-jk1542-d1e117">
+               <lb ed="#G" n="6" type="fixed=191-r"/>
+               <figure xml:id="dor5dc-jk1542-Fnbmvjj">
+                  <graphic url="iiifurl/1542,2588,0,556/full/full/default.jpg"/>
+                  <ab type="figure-details">
+                     <seg type="figure-text">No. VI. pag. 12. - 10. - 13. - 11. E P B S R A T T S R C R S T D T S R No. VI. pag. 12. - 10. - 13. - 11. E P B S R A T T S R C R S T D T S R</seg>
+                     <seg type="figure-ideas"/>
+                     <seg type="transkribus-id">r7</seg>
+                  </ab>
+                  <figDesc/>
+               </figure>
+            </p>
+            <p xml:id="dor5dc-jk1542-d1e140">
+               <lb ed="#G" n="12" type="fixed=197-r"/>Hier kann auch gefragt werden, warumb die particulae striatae, die da
+         <lb ed="#G" n="13"/>aus dem Polo A des Magneten in das theil S des Eisens hinein 
+         gan<lb ed="#G" n="14" break="no"/>gen, nicht gerade gegen E zu gehen, sondern sich vielmehr hier und
+         <lb ed="#G" n="15"/>dar gegen R und T reflectiren, das also solches eisen die Magnetische 
+         <lb ed="#G" n="16"/>Krafft vielmehr nach seiner länge als breite empfehet? Die 
+         and<lb ed="#G" n="17" break="no"/>wort aber hierauf ist leicht, dieweil sie viel mehr geöfnete und 
+         leich<lb ed="#G" n="18" break="no"/>tere Wege in dem eisen denn in der Lufft finden, derohalben sie auch
+         <lb ed="#G" n="19"/>von dieser gegen das Eisen reflectiret werden.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

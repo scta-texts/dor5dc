@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 172</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 172</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk2133"><!--prin-pt4-c172 -->
+            <head xml:id="dor5dc-jk2133-Hd1e108">Caput 172</head>
+            <p xml:id="dor5dc-jk2133-d1e110">
+               <lb ed="#G" n="10"/>(23. Warumb ein gewaffneter Magnet Viel mehr
+         <lb ed="#G" n="11"/>Eisen enthalte als ein bloßer?)
+      </p>
+            <p xml:id="dor5dc-jk2133-d1e117">
+               <lb ed="#G" n="12"/>Aber viel verwundern sich, das ein gewaffneter Magnet, oder das
+         <lb ed="#G" n="13"/>eiserne Blech so an den Magnet gehefftet, viel mehr eisen enthalten
+         <lb ed="#G" n="14"/>könne, als der Magnet allein. Dessen uhrsach aber doch aus dem
+         <lb ed="#G" n="15"/>kann geöfnet werden, daß ob er schon mehr an ihm gehenktes
+         <lb ed="#G" n="16"/>eisen enthalte, iedoch deswegen nicht das geringste mehr an
+         <lb ed="#G" n="17"/>sich zihe, wenn auch schon das geringste darvon hinweg genommen wird;
+         <lb ed="#G" n="18"/>und das er auch nichts mehrers enthalte, wenn etwan ein Corpus,
+         <lb ed="#G" n="19"/>ob es schon dünne, darzwischen lieget: Woraus denn erscheinet, das
+         <lb ed="#G" n="20"/>desselben größere Kraft aus dem eintzigen underschied des anrü
+         h<lb ed="#G" n="21" break="no"/>rens entspringe: daß nemlich die durchgänge des Eisernen
+         <lb ed="#G" n="22"/>blechs mit den durchgängen des angehenkten Eisens selbsten auf
+         <lb ed="#G" n="23"/>das allerbeste überein kommen, und das dannenhero die 
+         Par<lb ed="#G" n="24" break="no"/>ticulae Striatae, so durch diese gänge von einem eisen in das
+         <lb ed="#G" n="25"/>andere durchgehen, allen inmitten liegenden Lufft austreiben,
+         <lb ed="#G" n="26"/>und also machen, das derselben beede theile (superficies), die
+         <lb ed="#G" n="27"/>einander unmittelbar berühren, schwerlichen voneinander
+         <lb ed="#G" n="28"/>zu scheiden seint: so ist auch schon oben gewiesen, das zwey 
+         Corpo<lb ed="#G" n="29" break="no"/>ra durch keinen besseren leim als ein unmittelbares anrü
+         h<lb ed="#G" n="30" break="no"/>ren können vereiniget werden. Die durchgänge aber des
+         <lb ed="#G" n="31"/>Magnets kommen, wegen der in ihm annoch steinigten Materie,
+         <lb ed="#G" n="32"/>mit den durchgängen des Eisens nicht so wohl überein; 
+         dannen<lb ed="#G" n="33" break="no"/>hero ist es, daß allezeit zwischen dem Magnet und eisen ein
+         <lb ed="#G" n="34"/>wenig raum verbleiben muß, dardurch die Particulae striatae
+         <lb ed="#G" n="35"/>aus des einen durchgängen in des anderen durchgänge 
+         kom<lb ed="#G" n="36" break="no"/>men können.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

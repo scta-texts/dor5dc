@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 164</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 164</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk1695"><!--prin-pt4-c164 -->
+            <head xml:id="dor5dc-jk1695-Hd1e108">Caput 164</head>
+            <p xml:id="dor5dc-jk1695-d1e110">
+               <lb ed="#G" n="9"/>(15. Warumb dem Stahl eine stärkere Krafft von einem
+         <lb ed="#G" n="10"/>guten Magneten als einem schlimmen 
+         mittgethei<lb ed="#G" n="11" break="no"/>let wird?)
+      </p>
+            <p xml:id="dor5dc-jk1695-d1e119">
+               <lb ed="#G" n="12"/>Und es wird Ihme auch eine stärkere Krafft von einem großen und 
+         gu<lb ed="#G" n="13" break="no"/>ten Magneten mitgetheilet; so wohl weilen die Particulae striatae mit
+         <lb ed="#G" n="14"/>einer hefftigen gewalt in seine durchgänge einbrechen, und die in
+         <lb ed="#G" n="15"/>denen selben hervorgehende endgen der ramulorum mehr 
+         umb<lb ed="#G" n="16" break="no"/>biegen; als auch dieweil ihrer viel zugleich hienein fallen, so werden
+         <lb ed="#G" n="17"/>mehr und mehr dergleichen durchgänge von ihnen eröfnet. Denn
+         <lb ed="#G" n="18"/>es ist in acht zunehmen, das vielmehr solcher durchgänge in einem
+         <lb ed="#G" n="19"/>Stahl, welcher nemlich aus bloßen ramentis des Eisens bestehet,
+         <lb ed="#G" n="20"/>als indem Magneten seint, in welchem annoch viel steinhafftige Materiae
+         <lb ed="#G" n="21"/>zufinden, denen die ramenta des eisens infigiret, gleichsam hängen.
+         <lb ed="#G" n="22"/>Derohalben nun, in dem nur wenige particulae striatae aus einem
+         <lb ed="#G" n="23"/>schwachen Magnet in das Eisen gehen, so können sie nicht alle desselben
+         <lb ed="#G" n="24"/>durchgänge eröfnen, sondern nur wenige und zwar diese, so da
+         <lb ed="#G" n="25"/>von den gar leicht zubiegenden Endgen (extremitatibus) der ramulorum
+         <lb ed="#G" n="26"/>verstopffet seint.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

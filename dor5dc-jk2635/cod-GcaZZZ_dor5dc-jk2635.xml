@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 179</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 179</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="201-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk2635"><!--prin-pt4-c179 -->
+            <head xml:id="dor5dc-jk2635-Hd1e108">Caput 179</head>
+            <p xml:id="dor5dc-jk2635-d1e110">
+               <lb ed="#G" n="5"/>(30. Von denen dingen, welche man bey der Eisen-feihel, so
+         <lb ed="#G" n="6"/>umb den Magneten hänget, zubeobachten hat)
+      </p>
+            <p xml:id="dor5dc-jk2635-d1e117">
+               <lb ed="#G" n="2" type="fixed=0191-r"/>
+               <figure xml:id="dor5dc-jk2635-Fuhsiii">
+                  <graphic url="iiifurl/256,1683,0,698/full/full/default.jpg"/>
+                  <ab type="figure-details">
+                     <seg type="figure-text">No II. pag. 9. - 4. - 22 -30 R V X T X Y B O A S b P a No II. pag. 9. - 4. - 22 -30 R V X T X Y B O A S b P a</seg>
+                     <seg type="figure-ideas"/>
+                     <seg type="transkribus-id">r3</seg>
+                  </ab>
+                  <figDesc/>
+               </figure>
+            </p>
+            <p xml:id="dor5dc-jk2635-d1e140">
+               <lb ed="#G" n="7" type="fixed=201-v"/>Wenn Wir etwas eigentlicher betrachten, auf was vor eine art die 
+         Eisen<lb ed="#G" n="8" break="no"/>feihel umd den Magnet sich disponire, so werden wir dardurch viel 
+         ver<lb ed="#G" n="9" break="no"/>nehmen, so da das bishergedachte bestettigen wird. Denn vornemlich
+         <lb ed="#G" n="10"/>ist zumerken, das derselben Stäublein sich nicht unordentlich auf einander
+         <lb ed="#G" n="11"/>heuffen, sondern eines auf dem anderen liege, und gleichsam als wie
+         <lb ed="#G" n="12"/>länglechte röhrlein (tubulos) machen, wordurch die particulae striatae
+         <lb ed="#G" n="13"/>besser als durch die Lufft kommen, die derhalben auch solche Ihre wege 
+         be<lb ed="#G" n="14" break="no"/>zeichnen, welche wege, damit man sie desto klärer mit den augen sehen
+         <lb ed="#G" n="15"/>möge, so kann kann etwas von der Eisenfeihel auf einen blatten ort
+         <lb ed="#G" n="16"/>(supra planum) gesträuet werden, an welchem ort eine höhle sey
+         <lb ed="#G" n="17"/>in welcher man einen runden Magnet solcher gestalt legen könne,
+         <lb ed="#G" n="18"/>das seine Poli beederseits das planum oder Ebne berühren, eben als
+         <lb ed="#G" n="19"/>wie die Astronomische globi auf den Zirkul des Horizonts, wenn sie 
+         Sphae<lb ed="#G" n="20" break="no"/>ram rectam sollen repraesentiren, geleget werden, als denn wird 
+         da<lb ed="#G" n="21" break="no"/>selbst die gestreuete Eisenfeihel sich in solche länglechte Röhren (
+         tubu<lb ed="#G" n="22" break="no"/>los) disponiren, welche denn die Krummen (flexus) der 
+         parti<lb ed="#G" n="23" break="no"/>cularum striatarum umb den Magnet, oder aber auch umb der 
+         Erd<lb ed="#G" n="24" break="no"/>Kugel, wie solche oben beschrieben, bezeichnen und darstellen werden.
+         <lb ed="#G" n="25"/>Hernacher wenn ein anderer Magnet, auf eben solche art demselben
+         <lb ed="#G" n="26"/>plano nebenst dem vorigen inseriret oder eingeleget wird, das des
+         <lb ed="#G" n="27"/>eines Süd-Pol gegen des anderen NordPol stehe, so wird auch die
+         <lb ed="#G" n="28"/>herumb gestreute Eisenfeile erweisen, auf was vor eine art die
+         <lb ed="#G" n="29"/>Particulae striatae durch die zwen Magneten gleichsam als wie nur
+         <lb ed="#G" n="30"/>durch einen beweget werden. Denn die jenigen Tubuli so von einem
+         <lb ed="#G" n="31"/>aus denen gegen einanderüberstehenden polis zu dem anderen 
+         hin<lb ed="#G" n="32" break="no"/>langen, werden gantz recht sein; die anderen aber, die von einem
+         <lb ed="#G" n="33"/>zu dem anderen aus den widrigen Polis gelangen, seint umb den
+         <lb ed="#G" n="34"/>Magnet gebogen, wie alhier die Linien B R U X T a. So ist auch 
+         zu<lb ed="#G" n="35" break="no"/>merken, wenn etwas von der Eisenfeyl an einem Polo, zum Exemp:
+         <lb ed="#G" n="36"/>an dem SüdPol eines Magneten henget dieselbe Eisenfeyel gewendet
+         <lb ed="#G" n="37"/>
+               <!-- line coord error -->
+               <lb ed="#G" n="38"/>und derselben sachte genähert wird, auf was vor eine art dieselben
+         <lb ed="#G" n="39"/>tubuli, so sich daraus gemacht haben, sich erstlich in die höhe zurückzi¬
+         <!--Chart-A-00707_00202r.xml-->
+         <pb ed="#G" n="202-r"/>
+               <lb ed="#G" n="1"/>hen und iegen, dieweil nemlich dieselben Particulae striatae, so durch
+         <lb ed="#G" n="2"/>diselbe gehen, von anderen, die von dem understen Magnet kommen,
+         <lb ed="#G" n="3"/>zurückgetrieben werden, Und ferner, wenn der underste Magnet
+         <lb ed="#G" n="4"/>viel stärker ist als der oberste, so werden dieselben Tubuli von einander
+         <lb ed="#G" n="5"/>gelöset, und fället die Eisenfeil auf den understen hinab, dieweil
+         <lb ed="#G" n="6"/>nemlich die Particulae striatae, so aus dem understen in die Höhe steigen,
+         <lb ed="#G" n="7"/>in ieden Stäublein derselben Eisenfeil ein hefftiges ausstoßen (impetum)
+         <lb ed="#G" n="8"/>machen, welche in dem sie nicht können hinein kommen, als durch 
+         der<lb ed="#G" n="9" break="no"/>selben ihre Obertheile, mit welchen sie an dem Obersten Magnet hangen,
+         <lb ed="#G" n="10"/>so werden sie von solchen oberen geschieden. Im gegentheil aber, von
+         <lb ed="#G" n="11"/>dem SüdPol des Oberen Magneten, an welchem die Eisenfeil hänget, dem
+         <lb ed="#G" n="12"/>Nord-Pol des Underen entgegen gekehrte wird, alsdenn so richtet die
+         <lb ed="#G" n="13"/>Eisenfeyel ihre Tubulos gerade nach dem understen Magnet, und fü
+         h<lb ed="#G" n="14" break="no"/>ret sie, soviel sie kann, hinzu; Weil beederseits den Particulis striatis, so von
+         <lb ed="#G" n="15"/>einem Magnet in den anderen gehen, der weg offen; iedoch werden sie
+         <lb ed="#G" n="16"/>deswegen von dem Oberen nicht separiret, es sey denn das er zuvor
+         <lb ed="#G" n="17"/>den underen berühret habe, wegen der Krafft des anrührens, von welcher
+         <lb ed="#G" n="18"/>wir oben gehandelt. Und eben dieser Krafft halber, wenn die 
+         Eisen<lb ed="#G" n="19" break="no"/>feyl, ob sie schon an einem stärkeren Magnet hänget, von einem schwä
+         che<lb ed="#G" n="20" break="no"/>ren Magneten oder auch nur mit einem Eisernen stock berühret wird,
+         <lb ed="#G" n="21"/>so werden etliche derselben theile, den stärkeren Magnet verlassen,
+         <lb ed="#G" n="22"/>und dem schwachen, oder dem Eisernen Stock, folgen; Nemlich 
+         diejeni<lb ed="#G" n="23" break="no"/>gen, welche mit ihrem mehreren obertheil (majori superficie) diesen
+         <lb ed="#G" n="24"/>als jenen Magnet berühren, denn in dem diese eußerste obertheil 
+         under<lb ed="#G" n="25" break="no"/>schiedlich und ungleich seint, so geschihet es allezeit, das etlich particulae
+         <lb ed="#G" n="26"/>der Eisenfeyl einen Magnet oder Eisen, andere einem anderen
+         <lb ed="#G" n="27"/>fester anhangen und sich vereinigen.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

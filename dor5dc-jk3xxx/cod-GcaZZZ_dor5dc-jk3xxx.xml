@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 145</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 145</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="190-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk3xxx"><!--prin-pt4-c145 -->
+            <head xml:id="dor5dc-jk3xxx-Hd1e108">Caput 145</head>
+            <p xml:id="dor5dc-jk3xxx-d1e110"><!--Chart-A-00707_00190r.xml-->
+               <pb ed="#G" n="190-r"/>
+               <lb ed="#G" n="1"/>Kürtzliche Erleüterung       
+         <lb ed="#G" n="2"/>Etlicher Vorgaben von der Würkung,   
+         <lb ed="#G" n="3"/>Des MagnetSteins,
+         <lb ed="#G" n="4"/>Nach Anleitung und gesetzten Grundstükken
+         <lb ed="#G" n="5"/>Vom Cartesio.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e127">
+               <lb ed="#G" n="6"/>Cap. 1.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e132">
+               <lb ed="#G" n="7"/>Die Problemata oder Vorgaben seind diese:
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e137">
+               <lb ed="#G" n="8"/>1. Daß in einem Magnet zweyerley Poli zufinden, unter welchen 
+         <lb ed="#G" n="9"/>sich an allen Orten der eine gegen den Nordpolum der Erden, der andere
+         <lb ed="#G" n="10"/>aber gegen derselben Südpolum wendet.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e147">
+               <lb ed="#G" n="11"/>2. Daß diese zwen Poli des Magnets nach underschiedenen Örtern
+         <lb ed="#G" n="12"/>der Erden auf welchen sie enthalten werden, sich auch underschiedlich
+         <lb ed="#G" n="13"/>gegen den Mittelpunct der Erden neigen.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e156">
+               <lb ed="#G" n="14"/>3. Daß zwene runde Magnet sich gegen einander kehren, wie sonst
+         <lb ed="#G" n="15"/>ein iedweder derselben allein sich gegen der Erden wendet.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e163">
+               <lb ed="#G" n="16"/>4. Daß wenn sie sich also gewendet haben, hernachmals sich zu 
+         ei<lb ed="#G" n="17" break="no"/>nander begeben.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e170">
+               <lb ed="#G" n="18"/>5. Daß wo man sie im Gegentheil in widriger Situation 
+         ent<lb ed="#G" n="19" break="no"/>hält, einer von dem anderen weichet.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e177">
+               <lb ed="#G" n="20"/>6. Daß wenn ein Magnet gerade durch die Polos selbsten getheilet
+         <lb ed="#G" n="21"/>wird, alsdenn die beeden Stükke, so vorhero beysammen vereiniget
+         <lb ed="#G" n="22"/>gewesen, gleichergestalt von einander weichen.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e186">
+               <lb ed="#G" n="23"/>7. Daß wenn er mitten zwischen den Polis mit einer Linien 
+         ge<lb ed="#G" n="24" break="no"/>rad in Zwey getheilet wird, werden alsdenn die beeden erst 
+         anei<lb ed="#G" n="25" break="no"/>nander vereinigten puncta, zwen Poli von widriger Würckung,
+         <lb ed="#G" n="26"/>der eine in einem und der andere im anderen Stükke oder Theile.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e198">
+               <lb ed="#G" n="27"/>8. Daß ob schon in einem Magnet nur allein zwey Örter oder Poli
+         <lb ed="#G" n="28"/>seind, denn der einer Süd der andere Nordwärts, 
+         nichtsdestoweni<lb ed="#G" n="29" break="no"/>ger werden in einem ieden Stükke deßelben zwene gleiche Polig 
+         ge<lb ed="#G" n="30" break="no"/>funden, also daß seine Kraft, die sonst in Ansehung dieser Polorum
+         <lb ed="#G" n="31"/>underschiedlich oder widrig zu sein scheinet, doch so wohl in iedem Stück
+         <lb ed="#G" n="32"/>als in dem gantzen dieselbe und solcher Gestalt einerley ist.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e214">
+               <lb ed="#G" n="33"/>9. Daß daß Reißen dergleichen Kraft vom Magnet amptfehet
+         <lb ed="#G" n="34"/>wenn es nur an denselben gehalten wird.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e221">
+               <lb ed="#G" n="35"/>10. Daß es noch underschiedlicher Art, als es an denselben 
+         ge<lb ed="#G" n="36" break="no"/>halten wird, auch underschiedliche Krafft empfehet.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e228">
+               <lb ed="#G" n="37"/>11. Daß ein langlichtes Eisen, auf was vor Art es auch den
+         <!--Chart-A-00707_00190v.xml-->
+         <pb ed="#G" n="190-v"/>
+               <lb ed="#G" n="1"/>Magnet berühret, doch allezeit deßen Krafft seiner Lenge nach empfehet.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e239">
+               <lb ed="#G" n="2"/>12. Daß der Magnet von seiner Krafft nichts verlieret, ob er schon
+         <lb ed="#G" n="3"/>dieselbe dem Eisen mittheilet.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e246">
+               <lb ed="#G" n="4"/>13. Daß zwar dieselbe in gar in gar kurtzer Zeit dem Eysen kann 
+         mitge<lb ed="#G" n="5" break="no"/>theilet aber mit der Länge der Zeit mehr und mehr bestärket werden.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e254">
+               <lb ed="#G" n="6"/>14. Daß der härteste Stahl solche Kraft viel stärcker annimmt
+         <lb ed="#G" n="7"/>auch die angenommene viel beständiger behält als das geringste Eisen.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e261">
+               <lb ed="#G" n="8"/>15. Daß Ihnes auch eine mehrers Kraft von einem 
+         vollkomme<lb ed="#G" n="9" break="no"/>nen als schwachen Magneten gegeben wird.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e268">
+               <lb ed="#G" n="10"/>16. Daß auch die Erde selbst ein Magnet ist, und von seiner Krafft
+         <lb ed="#G" n="11"/>etwas dem Eisen mittheilet.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e275">
+               <lb ed="#G" n="12"/>17. Daß diese Kraft in der Erden, als dem größten Magnet, nicht
+         <lb ed="#G" n="13"/>so stark als in einem unter anderen magneten den kleinsten erscheinet.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e282">
+               <lb ed="#G" n="14"/>18. Daß eine vom Magnet berührte Nadel ihre Spitzen so wohl
+         <lb ed="#G" n="15"/>als wie der Magnet seine Polos gegen die Erde wendet.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e289">
+               <lb ed="#G" n="16"/>19. Daß sie solche nicht eben gantz gerade gegen die Polos der
+         <lb ed="#G" n="17"/>Erden kehret, sondern underschiedlich an underschiedenen orten
+         <lb ed="#G" n="18"/>von ihnen abweichet (decliniret).
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e299">
+               <lb ed="#G" n="19"/>20. Daß die abweichung mit der Zeit könne geendert werden.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e304">
+               <lb ed="#G" n="20"/>21. Daß in einem Magnet, welcher auf einen von seinen 
+         Po<lb ed="#G" n="21" break="no"/>lis perpendiculariter aufgerichtet, keine Abweichung, wie etliche
+         <lb ed="#G" n="22"/>sagen, aber doch nicht dergleichen noch so stark ist, als in dem, dessen
+         <lb ed="#G" n="23"/>Poli gleich von der Erden stehen.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e315">
+               <lb ed="#G" n="24"/>22. Daß der Magnet das Eisen zihet.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e320">
+               <lb ed="#G" n="25"/>23. Daß ein gewafneter Magnet viel mehr Eisen an sich 
+         ent<lb ed="#G" n="26" break="no"/>helt, als ein ein bloßer.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e327">
+               <lb ed="#G" n="27"/>24. Daß die beeden Poli, ob sie schon einander zuwider (
+         con<lb ed="#G" n="28" break="no"/>trär) doch einander helffen das Eisen zu enthalten.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e334">
+               <lb ed="#G" n="29"/>25. Daß die Herumbträhung auf beyde seiten Eiserner und an
+         <lb ed="#G" n="30"/>dem Magneten hangende Rädlein von der Kraft des Magnets nicht
+         <lb ed="#G" n="31"/>gehindert wird.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e344">
+               <lb ed="#G" n="32"/>26. Daß die Kraft des Magnets auf underschiedliche art kann
+         <lb ed="#G" n="33"/>vermehret und vermindert werden, nach dem man einen anderen
+         <lb ed="#G" n="34"/>magnet oder Eisen demselben underschiedlich appliciret.
+      </p>
+            <!--<p>
+         <!-\-Chart-A-00707_00191r.xml-\->
+         <pb ed="#G" n="Chat-A-00707_00191"/>
+         <lb ed="#G" n="1" type="fixed=Chat-A-00707_00191"/>
+         <figure>
+            <graphic url="iiifurl/93,85,0,1501/full/full/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">No I gehört ad pag. 5. § 19 und ad pag. 7 - 2. E a I b A a K b G h L C a b M a F b N a B D No I gehört ad pag. 5. § 19 und ad pag. 7 - 2. E a I b A a K b G h L C a b M a F b N a B D</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">r2</seg>
+            </ab>
+            <figDesc/>
+         </figure>
+         <!-\-Chart-A-00707_00191r.xml-\->
+         <pb ed="#G" n="Chat-A-00707_00191"/>
+         <lb ed="#G" n="2"/>
+         <figure>
+            <graphic url="iiifurl/256,1683,0,698/full/full/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">No II. pag. 9. - 4. - 22 -30 R V X T X Y B O A S b P a No II. pag. 9. - 4. - 22 -30 R V X T X Y B O A S b P a</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">r3</seg>
+            </ab>
+            <figDesc/>
+         </figure>
+         <!-\-Chart-A-00707_00191r.xml-\->
+         <pb ed="#G" n="Chat-A-00707_00191"/>
+         <lb ed="#G" n="3"/>
+         <figure>
+            <graphic url="iiifurl/1587,1753,0,496/full/full/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">No. III. pag. 10 - 5 Z Y A O V B a G X No. III. pag. 10 - 5 Z Y A O V B a G X</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">r4</seg>
+            </ab>
+            <figDesc/>
+         </figure>
+         <!-\-Chart-A-00707_00191r.xml-\->
+         <pb ed="#G" n="Chat-A-00707_00191"/>
+         <lb ed="#G" n="4"/>
+         <figure>
+            <graphic url="iiifurl/153,2471,0,645/full/full/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">No. IV. pag. 11. - 6 a b B A No. IV. pag. 11. - 6 a b B A</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">r5</seg>
+            </ab>
+            <figDesc/>
+         </figure>
+         <!-\-Chart-A-00707_00191r.xml-\->
+         <pb ed="#G" n="Chat-A-00707_00191"/>
+         <lb ed="#G" n="5"/>
+         <figure>
+            <graphic url="iiifurl/804,2644,0,438/full/full/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">No. V. pag. 11 - 7. A b a B  No. V. pag. 11 - 7. A b a B</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">r6</seg>
+            </ab>
+            <figDesc/>
+         </figure>
+         <!-\-Chart-A-00707_00191r.xml-\->
+         <pb ed="#G" n="Chat-A-00707_00191"/>
+         <lb ed="#G" n="6"/>
+         <figure>
+            <graphic url="iiifurl/1542,2588,0,556/full/full/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">No. VI. pag. 12. - 10. - 13. - 11. E P B S R A T T S R C R S T D T S R No. VI. pag. 12. - 10. - 13. - 11. E P B S R A T T S R C R S T D T S R</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">r7</seg>
+            </ab>
+            <figDesc/>
+         </figure>
+         <!-\-Chart-A-00707_00191r.xml-\->
+         <pb ed="#G" n="Chat-A-00707_00191"/>
+         <lb ed="#G" n="7"/>
+         <figure>
+            <graphic url="iiifurl/163,3222,0,471/full/full/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">No. VII. pag. 19. - 24. C D E F A B G H b a No. VII. pag. 19. - 24. C D E F A B G H b a</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">r8</seg>
+            </ab>
+            <figDesc/>
+         </figure>
+         <!-\-Chart-A-00707_00191r.xml-\->
+         <pb ed="#G" n="Chat-A-00707_00191"/>
+         <lb ed="#G" n="8"/>
+         <figure>
+            <graphic url="iiifurl/744,3229,0,357/full/full/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">No. VIII. pag. 20. - 26 27 - 21. - 29. a C b D E a F b No. VIII. pag. 20. - 26 27 - 21. - 29. a C b D E a F b</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">r9</seg>
+            </ab>
+            <figDesc/>
+         </figure>
+         <!-\-Chart-A-00707_00191r.xml-\->
+         <pb ed="#G" n="Chat-A-00707_00191"/>
+         <lb ed="#G" n="9"/>
+         <figure>
+            <graphic url="iiifurl/1653,3222,0,430/full/full/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">No. IX. pag. 23. - 31. - 24. - 32. A B D C D E F No. IX. pag. 23. - 31. - 24. - 32. A B D C D E F</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">r10</seg>
+            </ab>
+            <figDesc/>
+         </figure>
+      -->
+            <p xml:id="dor5dc-jk3xxx-d1e355">
+         <!--Chart-A-00707_00192r.xml-->
+               <pb ed="#G" n="192-r"/>
+               <lb ed="#G" n="1"/>27. Daß ein Magnet, ob er schon stärcker, doch das von ihm 
+         abstehen<lb ed="#G" n="2" break="no"/>de Eisen von der anhefftung oder anrührung eines anderen, schwächeren
+         <lb ed="#G" n="3"/>Magnets nicht abzuziehen vermag.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e368">
+               <lb ed="#G" n="4"/>28. Daß hingegen ein schwacher Magnet oder ein gringes Eisen
+         <lb ed="#G" n="5"/>ein anderes Eisen, welches drangehalten wird, von einem stärckeren
+         <lb ed="#G" n="6"/>magnet separiret.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e377">
+               <lb ed="#G" n="7"/>29. Daß der jenige polus des Magnets, welchen wir Australem nennen,
+         <lb ed="#G" n="8"/>in disen Nordischen örtern vielmehr Eisen an sich enthelt, als der, welchen
+         <lb ed="#G" n="9"/>wir Borealem nennen.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e386">
+               <lb ed="#G" n="10"/>30. Daß die Eisenfeyle umb einen oder mehr Magnet auf eine
+         <lb ed="#G" n="11"/>gewiße art sich disponiret.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e394">
+               <lb ed="#G" n="12"/>31. Das das Eisenblech, so dem Polo des Magnets vereiniget
+         <lb ed="#G" n="13"/>seine Kraft das Eisen zuziehen und umbzukehren abwendig
+         <lb ed="#G" n="14"/>machet.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e403">
+               <lb ed="#G" n="15"/>32. Das sonsten von darzwischen Stellung eines anderen 
+         Corpo<lb ed="#G" n="16" break="no"/>ris nicht geschiehet.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e410">
+               <lb ed="#G" n="17"/>33. Das der Magnet mit der Zeit seine Kraft verlieret, wann
+         <lb ed="#G" n="18"/>er gegen die Erde oder andere Magneten anders gehalten wird,
+         <lb ed="#G" n="19"/>alß er sich sonsten, ungehindert seiner bewegung, von selbsten kehret.
+      </p>
+            <p xml:id="dor5dc-jk3xxx-d1e419">
+               <lb ed="#G" n="20"/>34. Das auch entlich seine Kraft, durch den Rost, feuchtigkeit, und
+         <lb ed="#G" n="21"/>noch anderer unreinigkeit vergringert auch durch das Feuer gar hinweg
+         <lb ed="#G" n="22"/>genommen wird. Nicht aber auf eine einige andere Uns bewußte
+         <lb ed="#G" n="23"/>art.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

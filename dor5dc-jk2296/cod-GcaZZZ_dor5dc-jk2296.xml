@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 174</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 174</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="200-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk2296"><!--prin-pt4-c174 -->
+            <head xml:id="dor5dc-jk2296-Hd1e108">Caput 174</head>
+            <p xml:id="dor5dc-jk2296-d1e110">
+               <lb ed="#G" n="27"/>(25. Warumb die herumb-trehung Eiserner Rätlein
+         <lb ed="#G" n="28"/>Von der Krafft des Magnets, an dem sie hangen,
+         <lb ed="#G" n="29"/>nicht gehindert wird?)
+      </p>
+            <p xml:id="dor5dc-jk2296-d1e119">
+               <lb ed="#G" n="30"/>Diese bewegung aber der Particularum striatarum durch den Magnet
+         <lb ed="#G" n="31"/>und das Eisen, scheinet nicht daß sie auch so wohl mit der Zirkel
+         <lb ed="#G" n="32"/>runden Bewegung Eiserner Räderlein überein komme, welche,
+         <lb ed="#G" n="33"/>wenn sie als eine torrel umbeträhet sein und an dem Magnet
+         <lb ed="#G" n="34"/>hängen, sich viel länger also bewegen, als wenn sie ohne den
+         <lb ed="#G" n="35"/>Magnet bloß auf der Erden stehen. Und zwar, woferne die
+         <lb ed="#G" n="36"/>Particulae Striatae allein in einer geraden bewegung getrieben
+         <lb ed="#G" n="37"/>würden, und iedweders durchgänge des Eisens, durch welche sie 
+         ein<lb ed="#G" n="38" break="no"/>gehen, gleich gegen über den durchgängen des Magnets, aus welchen
+         <lb ed="#G" n="39"/>sie heraus gehen, antrefen, so würde ich vermeinen das sie die
+         <lb ed="#G" n="40"/>herumbträhung der rätlein aufhalten müsten. Dieweilen sie
+         <!--Chart-A-00707_00200v.xml-->
+         <pb ed="#G" n="200-v"/>
+               <lb ed="#G" n="1"/>sich aber allezeit selbsten trähen, eine in diesen die anderen in gegen
+         <lb ed="#G" n="2"/>theil, und also schrat (oblique) aus den durchgängen des Magnets
+         <lb ed="#G" n="3"/>geh in die gänge des eisens gehen müssen, so können sie leichtlich
+         <lb ed="#G" n="4"/>in eines ieden rätleins eingänge, es werde auch geträhet wie es
+         <lb ed="#G" n="5"/>wolle, so wohl hinein kommen, als ob es unbeweget stünde, so wird
+         <lb ed="#G" n="6"/>auch ihre bewegung viel weniger von dem anrühren des Magnets
+         <lb ed="#G" n="7"/>gehindert, wenn sie also an demselben hangende herumbgeträhet
+         <lb ed="#G" n="8"/>werden, als von dem anrühren der Erden, welche sie mit ihrem
+         <lb ed="#G" n="9"/>gewichte trükken.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

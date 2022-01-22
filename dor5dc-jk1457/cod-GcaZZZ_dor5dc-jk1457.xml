@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 159</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 159</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="196-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk1457"><!--prin-pt4-c159 -->
+            <head xml:id="dor5dc-jk1457-Hd1e108">Caput 159</head>
+            <p xml:id="dor5dc-jk1457-d1e110">
+               <lb ed="#G" n="28"/>(10. Warumb das Eisen nach underschiedlicher
+         <lb ed="#G" n="29"/>art, als es gegen den Magnet gehalten
+         <lb ed="#G" n="30"/>wird, seine Krafft underschiedlich 
+         em<lb ed="#G" n="31" break="no"/>pfahe?)
+      </p>
+            <p xml:id="dor5dc-jk1457-d1e121">
+               <lb ed="#G" n="6" type="fixed=191-r"/>
+               <figure xml:id="dor5dc-jk1457-Fhgjuty">
+                  <graphic url="iiifurl/1542,2588,0,556/full/full/default.jpg"/>
+                  <ab type="figure-details">
+                     <seg type="figure-text">No. VI. pag. 12. - 10. - 13. - 11. E P B S R A T T S R C R S T D T S R No. VI. pag. 12. - 10. - 13. - 11. E P B S R A T T S R C R S T D T S R</seg>
+                     <seg type="figure-ideas"/>
+                     <seg type="transkribus-id">r7</seg>
+                  </ab>
+                  <figDesc/>
+               </figure>
+            </p>
+            <p xml:id="dor5dc-jk1457-d1e144">
+               <lb ed="#G" n="32" type="fixed=196-v"/>Und zwar nach underschiedlichen theilen des Magnets, denen das
+         <lb ed="#G" n="33"/>Eisen appliciret wird, empfähet es auch underschiedlich 
+         dessel<lb ed="#G" n="34" break="no"/>ben Krafft, also das theil R des Eisens R S T, wenn es dem Nord-
+         <lb ed="#G" n="35"/>Pol des Magneten P appliciret wird, so wird es der Süd-Pol
+         <lb ed="#G" n="36"/>des Eisens, dieweil durch denselben theil die Particulae striatae, so
+         <lb ed="#G" n="37"/>von Süden kommen hinein gehen, und durch den theil T gehen
+         <lb ed="#G" n="38"/>hienein die Nord-Particulae, so von dem Polo A durch die Lufft
+         <lb ed="#G" n="39"/>sich wiederumb reflectiret. Eben dieser theil R, wenn er
+         <lb ed="#G" n="40"/>über den Aequatorem des Magneten liget, gegen desselben
+         <!--Chart-A-00707_00197r.xml-->
+         <pb ed="#G" n="197-r"/>
+               <lb ed="#G" n="1"/>Nord-Polen zu, als in C, so wird er wiederumb den Süd-Pol des Eisens,
+         <lb ed="#G" n="2"/>aber wenn er umbgekehret wird, das er gegen den Süd-Pol sich wendet,
+         <lb ed="#G" n="3"/>als in D, denn verlieret er die Krafft des Süd-Pols und wird ein
+         <lb ed="#G" n="4"/>Nord-Pol. Endlich wenn das mittelste theil des Eisens S den Polum
+         <lb ed="#G" n="5"/>A des Magnets berühret, als denn gehen die praticulae striatae, so Nordisch
+         <lb ed="#G" n="6"/>und durch den Punct S hinein ins Eisen gangen, wiederumb zu 
+         be<lb ed="#G" n="7" break="no"/>den seiten R und T heraus, und wird also aus diesen beeden theilen
+         <lb ed="#G" n="8"/>die Krafft des Süd-Poli, in der mitten aber die Krafft des 
+         Nord<lb ed="#G" n="9" break="no"/>Poli haben.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

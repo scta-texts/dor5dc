@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 173</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 173</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="200-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk2203"><!--prin-pt4-c173 -->
+            <head xml:id="dor5dc-jk2203-Hd1e108">Caput 173</head>
+            <p xml:id="dor5dc-jk2203-d1e110"> 
+         <!--Chart-A-00707_00200r.xml-->
+               <pb ed="#G" n="200-r"/>
+               <lb ed="#G" n="1"/>(24. Warumb des Magneten Poli, ob sie einander schon
+         <lb ed="#G" n="2"/>entgegen, doch einander, das Eisen zuenthalten,
+         <lb ed="#G" n="3"/>helffen?)
+      </p>
+            <p xml:id="dor5dc-jk2203-d1e123">
+               <lb ed="#G" n="7" type="fixed=191-r"/>
+               <figure xml:id="dor5dc-jk2203-Fpoiqwe">
+                  <graphic url="iiifurl/163,3222,0,471/full/full/default.jpg"/>
+                  <ab type="figure-details">
+                     <seg type="figure-text">No. VII. pag. 19. - 24. C D E F A B G H b a No. VII. pag. 19. - 24. C D E F A B G H b a</seg>
+                     <seg type="figure-ideas"/>
+                     <seg type="transkribus-id">r8</seg>
+                  </ab>
+                  <figDesc/>
+               </figure>
+            </p>
+            <p xml:id="dor5dc-jk2203-d1e146">
+               <lb ed="#G" n="4" type="fixed=200-r"/>Es verwundern sich auch etliche, das ob schon die Poli des Magnets
+         <lb ed="#G" n="5"/>einer widrigen Krafft oder würkung zu sein scheinen, iedoch einander,
+         <lb ed="#G" n="6"/>das Eisen zu enthalten, helffen, also das wenn sie beede mit 
+         Ei<lb ed="#G" n="7" break="no"/>sernen blechen gewaffnet, sie fast noch zweymahl mehrs Eisens 
+         zu<lb ed="#G" n="8" break="no"/>gleich, als einer allein, enthalten können. Nemlich wen A B der 
+         Mag<lb ed="#G" n="9" break="no"/>net ist, dessen Polis die bleche C D und E F vereiniget seint; iedoch das
+         <lb ed="#G" n="10"/>sie ein wenig hervor gehen, damit das Eisen G H, das ihnen zu 
+         appli<lb ed="#G" n="11" break="no"/>ciren, dieselbe mit einem breiten obertheile (superficie) berühre,
+         <lb ed="#G" n="12"/>dieses Eisen nun G H kann fast zweymahl schwerer sein, als wenn es
+         <lb ed="#G" n="13"/>nur von einem dieser beeden bleche sollte gehalten werden. Aber
+         <lb ed="#G" n="14"/>die Uhrsache dessen ist klahr, aus der vorerzehlten bewegung der
+         <lb ed="#G" n="15"/>particularum striatarum, Ob sie denn schon einander in dem
+         <lb ed="#G" n="16"/>entgegen seint, das die, so durch den einen Polum eingehen, durch
+         <lb ed="#G" n="17"/>den anderen polum aber nicht auch eingehen können, dieses aber
+         <lb ed="#G" n="18"/>hindert nicht, daß sie nichts destoweniger umb das eisen zu enthalten
+         <lb ed="#G" n="19"/>miteinander übereinstimmen sollten, die weil die particulae, so
+         <lb ed="#G" n="20"/>von des Magneten SüdPol A kommen und sich reflectiren durch das
+         <lb ed="#G" n="21"/>bleche C D, die gehen in einem theil des eisens b, in welchem Sie 
+         dessel<lb ed="#G" n="22" break="no"/>ben NordPol machen; und in dem Sie fortgehen zu dem SüdPol
+         <lb ed="#G" n="23"/>a, so kommen sie gegen das andere blech F E, durch welches Sie
+         <lb ed="#G" n="24"/>in die höhe steigen bis zu B des Magnets NordPol und also
+         <lb ed="#G" n="25"/>hingegen, die da ausgehen aus B durch das blech E F, das 
+         ange<lb ed="#G" n="26" break="no"/>henkte Eisen H G in das andere blech D C, kommen zurück zu A.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 181</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 181</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk2887"><!--prin-pt4-c181 -->
+            <head xml:id="dor5dc-jk2887-Hd1e108">Caput 181</head>
+            <p xml:id="dor5dc-jk2887-d1e110">
+               <lb ed="#G" n="5"/>(32. Warumb diese Krafft, durch darzwischensetzung
+         <lb ed="#G" n="6"/>eines anderen nicht auch gehindert werde?)
+      </p>
+            <p xml:id="dor5dc-jk2887-d1e117">
+               <lb ed="#G" n="9" type="fixed=191-r"/>
+               <figure xml:id="dor5dc-jk2887-Fqqq00f">
+                  <graphic url="iiifurl/1653,3222,0,430/full/full/default.jpg"/>
+                  <ab type="figure-details">
+                     <seg type="figure-text">No. IX. pag. 23. - 31. - 24. - 32. A B D C D E F No. IX. pag. 23. - 31. - 24. - 32. A B D C D E F</seg>
+                     <seg type="figure-ideas"/>
+                     <seg type="transkribus-id">r10</seg>
+                  </ab>
+                  <figDesc/>
+               </figure>
+            </p>
+            <p xml:id="dor5dc-jk2887-d1e140">
+               <lb ed="#G" n="7" type="fixed=202-v"/>Aber ausgenommen Eysen oder Magnet, ist kein Corpus, das wenn es
+         <lb ed="#G" n="8"/>an stat des blechs C D gesetzet würde, den Magnet A B, das er seine
+         <lb ed="#G" n="9"/>Würkung in der Nadel E F nicht üben sollte, hinderen könne, Denn wir
+         <lb ed="#G" n="10"/>haben in dieser Eusersten Erden nichts so dichte und hart, in welchem
+         <lb ed="#G" n="11"/>nicht viel durchgänge sein sollten, nicht zwar das sie nach art der 
+         parti<lb ed="#G" n="12" break="no"/>cularum striatarum sollten formirt sein, sondern viel größer, also
+         <lb ed="#G" n="13"/>daß sie auch die globulos des anderen Elements annehmen, und durch
+         <lb ed="#G" n="14"/>welche deswegen die Particulae striatae nicht weniger als durch die Lufft
+         <lb ed="#G" n="15"/>in welcher sie auch die globulos des anderen Elements antreffen, 
+         durchge<lb ed="#G" n="16" break="no"/>hen können.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

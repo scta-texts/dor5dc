@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 148</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 148</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="193-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk690z"><!--prin-pt4-c148 -->
+            <head xml:id="dor5dc-jk690z-Hd1e108">Caput 148</head>
+            <p xml:id="dor5dc-jk690z-d1e110">
+               <lb ed="#G" n="29"/>§ 21 So nun etwas diese rundstreifichte (striatae) particulae 
+         da<lb ed="#G" n="30" break="no"/>selbst einen Magnet antreffen, und in demselben solche durchgä
+         n<lb ed="#G" n="31" break="no"/>ge, die mit ihrer figur oder gestalt übereinkommen, auch auf
+         <lb ed="#G" n="32"/>diese art, als die durchgänge in der inneren erde disponiret
+         <lb ed="#G" n="33"/>seint, wie kurtz zuvor gesaget ist, finden, so ist kein Zweiffel,
+         <lb ed="#G" n="34"/>daß sie nicht viel leichter durch den Magnet als die Lufft oder
+         <lb ed="#G" n="35"/>andere Cörper der auswendigen Erden gehen sollten, sonderlich
+         <lb ed="#G" n="36"/>wenn der Magnet auf so einer art gehalten wird, das die eingänge
+         <lb ed="#G" n="37"/>(orificia) seiner durchgänge (meatum) gegen die theile der Erden
+         <lb ed="#G" n="38"/>sich kehren, von welchen dieselben rundstreiffigten Particulae kommen,
+         <!--Chart-A-00707_00194r.xml-->
+         <pb ed="#G" n="194-r"/>
+               <lb ed="#G" n="1"/>die da durch die eingänge hernachmals frey oder ungehindert 
+         einge<lb ed="#G" n="2" break="no"/>hen können.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 163</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 163</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="197-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk1664"><!--prin-pt4-c163 -->
+            <head xml:id="dor5dc-jk1664-Hd1e108">Caput 163</head>
+            <p xml:id="dor5dc-jk1664-d1e110"> 
+         <!--Chart-A-00707_00197v.xml-->
+               <pb ed="#G" n="197-v"/>
+               <lb ed="#G" n="1"/>(14. Warumb zu empfahung dieser Krafft
+         <lb ed="#G" n="2"/>der Stahl viel bequehmer als das gringste
+         <lb ed="#G" n="3"/>Eisen sey?)
+      </p>
+            <p xml:id="dor5dc-jk1664-d1e123">
+               <lb ed="#G" n="4"/>Und der Stahl nimt diese Krafft viel stärker an, als das gringste
+         <lb ed="#G" n="5"/>Eisen, dieweil er mehrere und volkommenere durchgänge hat, so da
+         <lb ed="#G" n="6"/>bequehm die partciulas striatas anzunehmen: Diese Krafft enthelt er
+         <lb ed="#G" n="7"/>auch bestendiger, dieweilen die in seinen durchgängen herfür rakende
+         <lb ed="#G" n="8"/>endgen der ramulorum sich nicht so leicht hin und wieder biegen lassen.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

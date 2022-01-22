@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 169</title>
+            <author ref="#per-RDeDRD">Descartes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name>Christoph Sander</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 169</title>
+               <date when="2022-01-22">January 22, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-GcaZZZ">Gotha, Forschungsbibliothek, Chart. A 707</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="dor5dc-jk2000"><!--prin-pt4-c169 -->
+            <head xml:id="dor5dc-jk2000-Hd1e108">Caput 169</head>
+            <p xml:id="dor5dc-jk2000-d1e110">
+               <lb ed="#G" n="3"/>(20. Warumb auch bißweilen mit der Zeit
+         <lb ed="#G" n="4"/>solche abweichung verendert werde?)
+      </p>
+            <p xml:id="dor5dc-jk2000-d1e117">
+               <lb ed="#G" n="5"/>Es seint etliche die sagen, das diese abweichung nicht allezeit an den 
+         sel<lb ed="#G" n="6" break="no"/>ben örtern der Erden gleich sey oder bleibt; sondern werde mit der Zeit
+         <lb ed="#G" n="7"/>verendert. Welches einem nicht seltzam zu sein dünken soll; nicht allein
+         <lb ed="#G" n="8"/>weil das Eisen täglich von einem ort der Erden zum andern durch die
+         <lb ed="#G" n="9"/>Menschen fortgebracht wird; sondern weilen auch die Eisensteine,
+         <lb ed="#G" n="10"/>so da in dem eußersten theil der erden sind, mit der Zeit können
+         <lb ed="#G" n="11"/>verderbet, und andere in anderen gezeuget, oder von der innersten
+         <lb ed="#G" n="12"/>Erden herausgeschicket werden.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>
